@@ -1,0 +1,4 @@
+Proyecto Página/
+*.txt
+/node_modules
+# Esto permite esconder archivos para que no se suban a la nube de Github
