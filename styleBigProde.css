@@ -10,14 +10,16 @@ a {
     text-decoration: none;
 }
 
-header {
-    background-color: blue;
+.container-fluid {
+    background-color: rgb(60, 200, 58);
+    width: 100%;
     display:flex;
     justify-content: space-between;
     align-items: center;
 }
-header nav ul {
+header nav div {
     display:flex;
+    justify-content: space-around;
 
 }
 header nav ul li {
@@ -28,7 +30,9 @@ header nav ul li a {
 }
 
 .hero {
- background-color: burlywood; 
+ background-image: url(./img/fondo_pasto.avif);
+ background-repeat: no-repeat;
+ background-size: cover;
  width:100%;
  height: 90vh; /* calculo para que ocupe toda la pantalla hasta el punto del scroll. vh es para indicar el % de la pantalla */  
  display: flex;
@@ -39,9 +43,12 @@ header nav ul li a {
 .hero h1 {
     font-size: 60px;
     color: white;
+    background-color: black;
 }
 .hero p {
     font-size: 25px;
+    color: white;
+    background-color: black;
 }
 
 .nosotros {
